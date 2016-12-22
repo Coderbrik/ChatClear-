@@ -1,0 +1,24 @@
+#Default Configuration File for ChatUtils+
+#This is the cooldown time for the server clear chat command.  Set to -1, if you don't wanna use it.
+Cooldown Time: 30
+#This is the amount of lines sent to the player to clear their chat. Recommended is 30.
+ClearAmount: 30
+#Notification prefix used for the plugin. 
+Notifier: '&7[&b!&7]'
+#Color of names throughout the plugin.
+NameColor: '&b'
+#Color of messages throughout the plugin.
+MessageColor: '&7'
+#Message Format for when people talk in chat.
+MessageFormat: '%prefix% &b%playername% &f: &7%message%'
+#Whether or not to use our message format, if you use pex or something, i would recommend setting this to false.
+UseMF: false
+#Join Message To be used when player's connect to the server
+Join Message: '&b%playername% &7Joined&f.'
+#Set true if you want to use this plugin's prefixes
+UsePrefixes: false
+#Leave message to be used when player's disconnect from the server
+Leave Message: '&b%playername% &7Left&f.'
+#Death Message Format
+Death Message: '&b%playername% &4Died&f.'
+#Info for players here:

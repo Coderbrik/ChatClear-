@@ -1,0 +1,43 @@
+name: ChatUtilsPlus
+main: cc.plus.main.CCMain
+description: A chat utility plugin!
+version: 1.0
+author: Aqapt
+
+commands:
+  pcc:
+    description: Clear your chat!
+    permission: cc.plus.pcc
+    usage: /pcc
+  scc:
+    description: Clear the server's chat!
+    permission: cc.staff.scc
+    usage: /scc
+  lsc:
+    description: Lock the server's chat!
+    permission: cc.staff.lockchat
+    usage: /lsc
+  ccpreload:
+    description: Reload the config.
+    permission: cc.staff.reload
+    usage: /ccpreload
+  ccp: 
+    description: Used to manage player settings
+    permission: cc.staff.manage
+    usage: /ccp
+  gmc:
+    description: Used to change player's gamemode to creative.
+    permission: cc.gm.cr
+    usage: /gmc[Player]
+  gms:
+    description: Used to change player's gamemode to survival.
+    permission: cc.gm.sv
+    usage: /gms[Player]
+  gma:
+    description: Used to change player's gamemode to Adventure.
+    permission: cc.gm.adv
+    usage: /gma[Player]
+  gmsp:
+    description: Used to change player's gamemode to Spectator.
+    permission: cc.gm.sp
+    usage: /gmsp[Player]
