@@ -61,7 +61,7 @@ public class CCMain extends JavaPlugin {
 	}
 	
 	private void isSectionThere(String section) {
-		if(CCMain.getPlugin().getConfig().getConfigurationSection("playerinfo") == null) {
+		if(CCMain.getPlugin().getConfig().getConfigurationSection(section) == null) {
 			createConfigurationSection(section);
 			}
 	}
